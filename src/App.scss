@@ -1,0 +1,7 @@
+@import "~bootstrap/scss/bootstrap";
+
+@for $value from 1 through 10 {
+  mw-#{$value * 100} {
+    max-width: $value * 100;
+  }
+}
